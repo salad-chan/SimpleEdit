@@ -1,0 +1,7 @@
+.vs/
+SimpleEdit.sln
+SimpleEdit.vcxproj
+SimpleEdit.vcxproj.filters
+SimpleEdit.vcxproj.user
+bin/
+bin-int/
