@@ -5,3 +5,4 @@ SimpleEdit.vcxproj.filters
 SimpleEdit.vcxproj.user
 bin/
 bin-int/
+imgui.ini

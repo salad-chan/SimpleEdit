@@ -19,19 +19,22 @@ project "SimpleEdit"
 		"vendor/imgui/**.cpp",
 		"src/**.cpp",
 		"src/**.h",
-		"vendor/GLFW/include",
+		"vendor/glad/src/**.c"
 	}
 
 	includedirs {
 		"vendor/GLFW/include",
-		"vendor/imgui"
+		"vendor/imgui",
+		"vendor/glad/include"
 	}
 
 	filter "system:windows"
 		cppdialect "C++17"
 		links { "glfw3" }
 
-	libdirs { "vendor/GLFW/lib-vc2022" }
+	libdirs {
+		"vendor/GLFW/lib-vc2022"
+	}
 
 filter "configurations:Debug"
 	defines { "DEBUG" }
